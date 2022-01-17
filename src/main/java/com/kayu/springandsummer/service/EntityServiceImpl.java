@@ -4,7 +4,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.kayu.springandsummer.entity.Entity;
-import com.kayu.springandsummer.entity.EntityManager;
 
 @Service
 public class EntityServiceImpl implements EntityService {
@@ -16,6 +15,7 @@ public class EntityServiceImpl implements EntityService {
     @Autowired
     EntityManager entityManager;
 
+    @Override
     public String generateMessage(String name) {
         if (!entityManager.isPresent(name)) {
             return String.format(DEFAULT_GREETING_MESSAGE, name);
@@ -24,10 +24,12 @@ public class EntityServiceImpl implements EntityService {
         return String.format(ENTITY_TEMPLATE_MESSAGE, entity.getAge(), entity.getName(), entity.getBalance());
     }
 
+    @Override
     public Entity getEntity(String name) {
         return entityManager.getEntity(name);
     }
 
+    @Override
     public void saveEntity(String name, int age) {
         entityManager.saveEntity(name, age);
     }

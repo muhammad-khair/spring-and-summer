@@ -45,4 +45,13 @@ public class Entity {
     public int hashCode() {
         return Objects.hash(name, age, balance);
     }
+
+    @Override
+    public String toString() {
+        return "Entity{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", balance=" + balance +
+                '}';
+    }
 }

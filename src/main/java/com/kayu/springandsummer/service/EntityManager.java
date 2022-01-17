@@ -1,4 +1,6 @@
-package com.kayu.springandsummer.entity;
+package com.kayu.springandsummer.service;
+
+import com.kayu.springandsummer.entity.Entity;
 
 public interface EntityManager {
     void saveEntity(String name, int age);

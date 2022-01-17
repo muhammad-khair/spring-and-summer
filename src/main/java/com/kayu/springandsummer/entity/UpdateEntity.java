@@ -2,16 +2,12 @@ package com.kayu.springandsummer.entity;
 
 import java.util.Objects;
 
-import org.springframework.lang.NonNull;
-
 public class UpdateEntity {
     
-    @NonNull
     private String name;
     private int balance;
 
-    public UpdateEntity() {
-    }
+    public UpdateEntity() {}
 
     public UpdateEntity(String name, int balance) {
         this.name = name;

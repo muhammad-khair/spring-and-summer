@@ -2,16 +2,12 @@ package com.kayu.springandsummer.entity;
 
 import java.util.Objects;
 
-import org.springframework.lang.NonNull;
-
 public class BaseEntity {
     
-    @NonNull
     private String name;
     private int age;
 
-    public BaseEntity() {
-    }
+    public BaseEntity() {}
 
     public BaseEntity(String name, int age) {
         this.name = name;
