@@ -4,7 +4,7 @@ This is just a test SpringBoot application I created for experimentation (using 
 
 ### Comments
 
-There is no database needed to run, but it also means that data stored in the application will be wiped after use (consider simple file storage, or just jump to using database management with H2 and Spring Data dependencies). Adding a logging system and having unit testing are TODO actions currently.
+There is no database needed to run, but it also means that data stored in the application will be wiped after use (consider simple file storage, or just jump to using database management with H2 and Spring Data dependencies). Adding unit testing are TODO actions currently.
 
 # Setup guide
 

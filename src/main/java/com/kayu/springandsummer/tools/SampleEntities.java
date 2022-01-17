@@ -1,7 +1,9 @@
-package com.kayu.springandsummer.entity;
+package com.kayu.springandsummer.tools;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import com.kayu.springandsummer.entity.Entity;
 
 public class SampleEntities {
     
