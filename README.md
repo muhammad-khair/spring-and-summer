@@ -2,7 +2,7 @@
 
 This is just a test SpringBoot application I created for experimentation. Displays Jackson mapping, SpringBoot Web and basic CRUD actions using RESTful APIs. 
 
-## Comments
+### Comments
 
 There is no database needed to run, but it also means that data stored in the application will be wiped after use (consider simple file storage, or just jump to using database management with H2 and Spring Data dependencies). Adding a logging system and having unit testing are TODO actions currently.
 
@@ -66,14 +66,26 @@ Format of JSON body:
 
 # Screenshots of usage
 
+### Running on IntelliJ
+
 ![Running on IntelliJ](screenshots/runningOnIntelliJ.png)
 
-![Greeting](screenshots/greet.png)
+### Greeting message
+
+![Greeting message](screenshots/greet.png)
+
+### Saving a new Entity
 
 ![Saving a new Entity](screenshots/saveEntity.png)
 
+### Updating the balance of an Entity
+
 ![Updating the balance of an Entity](screenshots/updateBalance.png)
 
+### Deleting an Entity
+
 ![Deleting an Entity](screenshots/deleteEntity.png)
+
+### Updating a non-existent Entity
 
 ![Updating a non-existent Entity](screenshots/updateNonExistentEntity.png)
