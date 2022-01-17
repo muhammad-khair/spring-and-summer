@@ -1,10 +1,10 @@
-package com.kayu.spring_and_summer;
+package com.kayu.springandsummer;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class MainApplicationTests {
+class MainApplicationTest {
 
 	@Test
 	void contextLoads() {

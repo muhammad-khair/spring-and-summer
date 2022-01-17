@@ -1,2 +1,2 @@
-# spring_and_summer
+# spring-and-summer
 Just a test SpringBoot application
