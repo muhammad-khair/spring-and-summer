@@ -1,6 +1,6 @@
 # Welcome to spring-and-summer!
 
-This is just a test SpringBoot application I created for experimentation. Displays Jackson mapping, SpringBoot Web and basic CRUD actions using RESTful APIs. 
+This is just a test SpringBoot application I created for experimentation (using [Spring's Quickstart Guide](https://spring.io/quickstart)). Displays Jackson mapping, SpringBoot Web and basic CRUD actions using RESTful APIs. 
 
 ### Comments
 
@@ -8,10 +8,10 @@ There is no database needed to run, but it also means that data stored in the ap
 
 # Setup guide
 
-* Ensure Java 11 is installed.
-* Best opened with IntelliJ.
+* Ensure [Java 11](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html) is installed.
+* Best opened with [IntelliJ](https://www.jetbrains.com/idea/).
 * Select the `build.gradle` when opening to load the project as well as its configuration.
-* Also install and setup PostMan for API manual testing.
+* Also install and setup [PostMan](https://www.postman.com/) for API manual testing.
 
 # Running the application
 
